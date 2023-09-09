@@ -33,7 +33,7 @@ class Book{
 	{
 		delete[]Rates;
 		Rates = NULL;
-		}	
+	}	
 };
 
 void printBook(Book book)//Here it is call by value and copy constructor is invoked
